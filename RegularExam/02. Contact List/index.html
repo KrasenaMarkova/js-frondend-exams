@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    
+      <h1>Contact List</h1>
+    <main>
+      <section id="form_area">
+        <h2>Enter contact</h2>
+        <form id="contact_form">
+            <input type="text" id="first_name" placeholder="First name" />
+            <input type="text" id="last_name" placeholder="Last name" />
+            <input type="text" id="phone" placeholder="Phone" />
+            <button id="add_btn">Add</button>
+        </form>
+      </section>
+      <section id="pending_area">
+        <h2>Pending contacts</h2>
+        <ul id="pending_contact_list">
+          <!-- <li class="contact">
+            <span class="names">Stanislav Dimitrov</span>
+            <span class="phone_number">0887553358</span>
+            <button class="edit_btn">Edit</button>
+            <button class="verify_btn">Verify</button>
+          </li> -->
+         
+        </ul>
+      </section>
+      <section id="contact_area">
+        <h2>Verified contacts</h2>
+        <ul id="contact_list">
+          <!-- <li class="verified_contact">
+            <span class="names">Stanislav Dimitrov</span>
+            <span class="phone_number">0887553358</span>
+            <button class="delete_btn">Delete</button>
+          </li> -->
+        </ul>
+      </section>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>
